@@ -11,7 +11,21 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.7"
-dependencies = []
+dependencies = [
+    "torch",
+    "torchvision",
+    "click",
+    "ijson",
+    "pycocotools",
+    "requests",
+    "strenum",
+    "opencv-python",
+    "tqdm",
+    "albumentations",
+    "scikit-learn",
+    "numpy",
+
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

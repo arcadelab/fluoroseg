@@ -9,10 +9,6 @@ dependencies:
   - cuda-toolkit=12.8
   - pip
   - pip:
-    - click
-    - numpy
-    - torch
-    - torchvision
-    - tqdm
-    - black
     - flake8
+    - black
+    - -e .
