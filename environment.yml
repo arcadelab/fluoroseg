@@ -1,0 +1,18 @@
+name: fluoroseg
+channels:
+  - pytorch
+  - "nvidia/label/cuda-12.8.0"
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - cuda-toolkit=12.8
+  - pip
+  - pip:
+    - click
+    - numpy
+    - torch
+    - torchvision
+    - tqdm
+    - black
+    - flake8

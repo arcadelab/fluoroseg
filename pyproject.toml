@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fluoroseg"
+version = "0.1.0"
+description = "Code for reading the FluoroSeg dataset."
+authors = [
+    { name = "Benjamin D. Killeen", email = "killeen@jhu.edu" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
