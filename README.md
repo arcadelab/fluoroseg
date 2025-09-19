@@ -44,3 +44,25 @@ conda activate fluoroseg
 pip install -e . # install as a locally editable package
 ```
 
+## Citation
+
+If you use FluoroSeg in your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{killeen2025fluorosam,
+  author       = {Killeen, Benjamin D. and Wang, Liam J. and Inigo, Blanca and Zhang, Han and Mehran, Armand and Taylor, Russell H. and Osgood, Greg and Unberath, Mathias},
+  title        = {{FluoroSAM: A Language-promptable Foundation Model for Flexible X-ray Image Segmentation}},
+  date         = {2025},
+  booktitle    = {Proc. Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  publisher    = {Springer},
+}
+```
+
+## Acknowledgments
+
+This work was supported by the Link Foundation Fellowship for Modeling, Training, and Simulation; the NIH under Grant No. R01EB036341, the NSF under Award No. 2239077, and Johns Hopkins University Internal Funds.
+
+## Coming Soon
+
+- HuggingFace dataset card
+- HuggingFace model card for FluoroSAM
