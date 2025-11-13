@@ -64,5 +64,5 @@ This work was supported by the Link Foundation Fellowship for Modeling, Training
 
 ## Coming Soon
 
-- HuggingFace dataset card
-- HuggingFace model card for FluoroSAM
+- [x] HuggingFace dataset card
+- [ ] HuggingFace model card for FluoroSAM
